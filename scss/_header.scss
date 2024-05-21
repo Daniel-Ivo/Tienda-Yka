@@ -1,0 +1,21 @@
+header{
+    border-bottom: solid 3px;
+    border-color: orange;
+    padding: 3px;
+
+      .navbar{
+             
+             display: flex;
+             align-items: center;
+             justify-content: space-around;
+             text-decoration: none;
+             color: whitesmoke;
+         }
+        .logo{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            border: 5px solid orangered;
+        }
+     }
+    
