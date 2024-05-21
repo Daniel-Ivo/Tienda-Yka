@@ -1,0 +1,261 @@
+header{
+    border-bottom: solid 3px;
+    border-color: orange;
+    padding: 3px;
+}
+.navbar{
+    align-content: left; 
+}
+.Grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 1rem;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto;
+}
+
+.grid-item img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+
+.frutos-secos-container{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    gap: 20px;
+    padding: 55px;
+    border: solid 5px;
+    border-color: orangered;
+    
+}
+.frutos-secos-container img{
+    height: 200px;
+    border-radius: 5%;
+}
+
+.productos-container{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    gap: 20px;
+    padding: 55px;
+    border: solid 5px;
+    border-color: orangered;
+
+}
+.productos-container img{
+    height: 200px;
+    border-radius: 5%;
+}
+.productos-container a{
+    margin-left: 200px;
+}
+
+.frutos-secos img{
+    height: 400px;
+    border-radius: 5%;
+}
+
+.frutos-secos grid-item5 img{
+    height: auto;
+}
+
+.condimentos-cointainer{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    gap: 20px;
+    padding: 55px;
+    border: solid 5px;
+    border-color: orangered;
+}
+
+.condimentos-cointainer img{
+    height: 200px;
+    border-radius: 5%;
+}
+
+
+.Grid-container img {
+    border-radius: 5%;
+}
+
+img {
+    height: 500px;  
+  }
+
+
+
+.logo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid orangered;
+}
+
+
+h1 {
+    background-color: orangered ;
+    color: orange;
+    width: 400px;
+    padding-left: 200px;
+    margin-left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+h2{    background-color: orange ;
+    color: orangered;
+}
+
+h4{ 
+    border-top: 25px;
+    text-align: center;
+    background-color: orangered;
+     
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5%;
+    padding: 2%;
+    margin-top: 2%;
+  }
+  
+.foto{
+    margin-left: 430px;
+}
+body {
+    background-color: whitesmoke;
+}
+p{
+    color: black;
+    background-color: orange; 
+    padding: 30px;
+    text-align: center;
+
+
+}
+ul{
+    color: orangered; 
+}
+
+.recetas-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 1rem;
+
+    .grid-item{
+        border: solid 4px;
+        border-color: black;
+        padding: 5px;
+    }
+    .grid-item p{
+        border-radius: 5%;
+        margin-top: 5px;
+    }
+    .grid-item h2{
+        border-radius: 5%;
+        margin-top: 5px;
+      
+    }
+    .grid-item ul li{
+        color: black;
+    }
+}
+
+
+a{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: turquoise;
+    
+
+    leyenda em{
+    color: orange;
+    }
+    
+}
+.Diploma img{
+    border-radius:  5%;
+    padding: 5px;
+}
+
+.logo-wpp{
+    position: fixed;
+    right: 15px;
+    bottom: 0px;
+    height: auto;
+}
+
+
+.leyenda span{
+    color: orangered;
+}
+
+.leyenda2 span{
+    color: orangered;
+}
+footer{
+    padding: 20px;
+}
+    
+footer div p{
+    display: flex;
+    justify-content: start;
+}
+section nav{
+    display: flex;
+    justify-content: center;
+}
+.productos {
+    border-radius: 5%;
+    height: 250px;
+} 
+
+
+
+@media only screen and ( max: 424px){
+    .Grid-container{
+        grid-template-rows: 1 auto;
+        text-align: center;
+        row-gap: 5px;
+    }
+    .Diploma img{
+       align-content: center;
+    }
+
+    .Josefin Sans{
+        font-family: "Josefin Sans";
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 5%;
+        padding: 2%;
+        margin-top: 2%;
+      }
+   
+}
