@@ -1,15 +1,16 @@
  footer{
          padding: 20px;
          display: flex;
+         justify-content: center;
         div{
           display: flex;
-          justify-content: start;
+          justify-content: space-between;
           background-color: orange;
               p{
                 color: black;
                 background-color: orange; 
                 padding: 30px;
-                text-align: center;
+                justify-content: center;
                 a{
                   align-items: center;
                   margin-left: 30px;
