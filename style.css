@@ -38,7 +38,16 @@ section .leyenda p {
   text-align: center;
 }
 
-section div .carousel-item {
+section .carousel slide .carousel-inner .carousel-item active .rounded mx-auto d-block w-auto {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+}
+section .carousel slide .carousel-inner .carousel-item .carousel slide {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
   border-radius: 5%;
 }
 
@@ -54,22 +63,53 @@ footer {
   display: flex;
   justify-content: center;
 }
-footer div {
+footer .Grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 1rem;
+  background-color: orange;
+}
+footer .Grid-container .grid-item {
   display: flex;
-  justify-content: space-between;
-  background-color: orange;
-}
-footer div p {
-  color: black;
-  background-color: orange;
-  padding: 30px;
-  justify-content: center;
-}
-footer div p a {
+  flex-direction: column;
   align-items: center;
-  margin-left: 30px;
+  margin: auto;
+}
+footer .Grid-container .grid-item img {
+  width: 50%;
+  height: auto;
+}
+footer .Grid-container .grid-item a {
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+}
+footer .Grid-container .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+footer .Grid-container .grid-item a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: black;
+}
+
+section .navbar {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: whitesmoke;
+}
+section .navbar div a .logo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid orangered;
 }
 
 h4 {
@@ -102,6 +142,66 @@ main .nosotros p {
   background-color: orange;
   padding: 30px;
   justify-content: center;
+}
+
+section .leyenda2 {
+  text-align: center;
+  border-bottom: solid 2px;
+  border-color: orange;
+}
+section .leyenda2 span {
+  color: orangered;
+}
+section .leyenda2 span em {
+  color: orange;
+}
+
+.recetas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 1rem;
+}
+.recetas-container .grid-item {
+  border: solid 4px;
+  border-color: black;
+  padding: 5px;
+}
+.recetas-container .grid-item h2 {
+  border-radius: 5%;
+  margin-top: 5px;
+}
+.recetas-container .grid-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+}
+.recetas-container .grid-item p {
+  color: black;
+  background-color: orange;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+@media only screen and (max: 424px) {
+  .Grid-container {
+    grid-template-rows: 1 auto;
+    text-align: center;
+    row-gap: 5px;
+  }
+  .Diploma img {
+    align-content: center;
+  }
+  .Josefin Sans {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5%;
+    padding: 2%;
+    margin-top: 2%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
