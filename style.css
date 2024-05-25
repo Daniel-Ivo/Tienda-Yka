@@ -38,6 +38,9 @@ section .leyenda p {
   text-align: center;
 }
 
+section .carousel slide .carousel-inner img {
+  width: auto;
+}
 section .carousel slide .carousel-inner .carousel-item active .rounded mx-auto d-block w-auto {
   width: 100%;
   height: auto;
@@ -220,6 +223,15 @@ section .leyenda2 span em {
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5%;
+}
+
+.Josefin Sans {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 5%;
+  padding: 2%;
+  margin-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */

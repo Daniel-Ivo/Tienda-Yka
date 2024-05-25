@@ -17,6 +17,9 @@ section{
     section{
         .carousel slide{
         .carousel-inner{ 
+            img{
+                width: auto;
+            }
          .carousel-item active{
                 .rounded mx-auto d-block w-auto{
                     width: 100%;
