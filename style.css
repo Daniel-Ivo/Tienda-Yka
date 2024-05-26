@@ -19,6 +19,12 @@ header .navbar {
   text-decoration: none;
   color: whitesmoke;
 }
+header .navbar .container-fluid .collapse .navbar-nav .nav-item {
+  transition: 5s;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+  transform: translate(5px);
+}
 header .logo {
   border-radius: 50%;
   width: 200px;
@@ -29,7 +35,7 @@ header .logo {
 section h4 {
   border-top: 25px;
   text-align: center;
-  background-color: orangered;
+  background-image: linear-gradient(to left, orange, orangered);
 }
 section .leyenda {
   background-color: orange;
@@ -39,18 +45,24 @@ section .leyenda p {
 }
 
 section .carousel slide .carousel-inner img {
-  width: auto;
-}
-section .carousel slide .carousel-inner .carousel-item active .rounded mx-auto d-block w-auto {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
+  width: px;
+  height: 200px;
+  border: 1px solid;
+  border-color: black;
   border-radius: 5%;
 }
-section .carousel slide .carousel-inner .carousel-item .carousel slide {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
+section .carousel slide .carousel-inner .carousel-item active {
+  width: px;
+  height: 200px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5%;
+}
+section .carousel slide .carousel-inner .carousel-item {
+  width: px;
+  height: 200px;
+  border: 1px solid;
+  border-color: black;
   border-radius: 5%;
 }
 
@@ -59,6 +71,11 @@ div a .logo-wpp {
   right: 15px;
   bottom: 0px;
   height: auto;
+  transition: 3s;
+}
+
+.logo-wpp:hover {
+  transform: rotate(360deg);
 }
 
 footer {
@@ -82,11 +99,11 @@ footer .Grid-container .grid-item {
 footer .Grid-container .grid-item img {
   width: 50%;
   height: auto;
+  box-shadow: none;
 }
 footer .Grid-container .grid-item a {
   color: black;
   text-decoration: none;
-  justify-content: space-between;
 }
 footer .Grid-container .grid-item {
   display: flex;
@@ -156,7 +173,7 @@ section .leyenda2 span {
   color: orangered;
 }
 section .leyenda2 span em {
-  color: orange;
+  color: red;
 }
 
 .recetas-container {
@@ -169,6 +186,9 @@ section .leyenda2 span em {
   border: solid 4px;
   border-color: black;
   padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .recetas-container .grid-item h2 {
   border-radius: 5%;
@@ -179,13 +199,19 @@ section .leyenda2 span em {
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5%;
+  margin-bottom: 5px;
 }
 .recetas-container .grid-item p {
   color: black;
+  border-radius: 2%;
   background-color: orange;
   padding: 30px;
   text-align: center;
-  border-radius: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 3s;
+}
+.recetas-container .grid-item p:hover {
+  transform: scale(0.5);
 }
 
 @media only screen and (max: 424px) {
@@ -221,8 +247,11 @@ section .leyenda2 span em {
 .Grid-container .grid-item img {
   width: 100%;
   height: auto;
-  border: 1px solid #ccc;
   border-radius: 5%;
+  margin-bottom: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .Josefin Sans {
@@ -232,6 +261,11 @@ section .leyenda2 span em {
   border-radius: 5%;
   padding: 2%;
   margin-top: 2%;
+}
+
+p {
+  background: rgb(255, 201, 0);
+  background: radial-gradient(circle, rgb(255, 201, 0) 24%, rgb(255, 98, 0) 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

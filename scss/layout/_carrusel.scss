@@ -2,7 +2,7 @@ section{
         h4{
             border-top: 25px;
             text-align: center;
-            background-color: orangered;
+            background-image: linear-gradient(to left, orange, orangered)
                      
         }
         .leyenda{
@@ -18,25 +18,32 @@ section{
         .carousel slide{
         .carousel-inner{ 
             img{
-                width: auto;
+                width: px;
+                height: 200px;
+                border: 1px solid;
+                border-color: black;
+                border-radius: 5%;
+                    
             }
-         .carousel-item active{
-                .rounded mx-auto d-block w-auto{
-                    width: 100%;
-                    height: auto;
-                    border: 1px solid #ccc;
-                    border-radius: 5%;
-                   }
+         .carousel-item active {
+            width: px;
+            height: 200px;
+            border: 1px solid ;
+            border-color: black;
+            border-radius: 5%;
+                
          }
- 
+
          .carousel-item{
-            .carousel slide{
-                    width: 100%;
-                    height: auto;
-                    border: 1px solid #ccc;
-                    border-radius: 5%;
-            }
+            width: px;
+            height: 200px;
+            border: 1px solid;
+            border-color: black;
+            border-radius: 5%;
+           
          }
+        
+ 
  }
  }
  }

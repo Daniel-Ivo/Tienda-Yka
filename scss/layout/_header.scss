@@ -9,6 +9,20 @@ header{
              justify-content: space-around;
              text-decoration: none;
              color: whitesmoke;
+
+             .container-fluid{
+                .collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            transition: 5s;
+                            .nav-link:hover{
+                            transform: translate(5px);
+                
+                            }
+                        }
+                    }
+                }
+             }
          }
         .logo{
             border-radius: 50%;
