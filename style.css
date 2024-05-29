@@ -190,9 +190,8 @@ section .leyenda2 span em {
   margin-top: 5px;
 }
 .recetas-container .grid-item img {
-  width: 500px;
+  width: 100%;
   height: auto;
-  border: 1px solid #ccc;
   border-radius: 5%;
   margin-bottom: 5px;
 }
@@ -225,6 +224,10 @@ section .leyenda2 span em {
     border-radius: 5%;
     padding: 2%;
     margin-top: 2%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 .Grid-container {
