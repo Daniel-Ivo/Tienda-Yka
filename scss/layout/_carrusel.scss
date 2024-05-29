@@ -15,35 +15,21 @@ section{
 
 
     section{
-        .carousel slide{
-        .carousel-inner{ 
-            img{
-                width: px;
-                height: 200px;
-                border: 1px solid;
-                border-color: black;
-                border-radius: 5%;
-                    
-            }
-         .carousel-item active {
-            width: px;
-            height: 200px;
-            border: 1px solid ;
-            border-color: black;
-            border-radius: 5%;
+        .carouselExample{
+          .carousel-inner{ 
+          
+             .carousel-item active {
                 
-         }
+                   .carrusel1{
+                    width: 500px;
+                    border-radius: 5%;
+                      }
+                
+                  }
 
-         .carousel-item{
-            width: px;
-            height: 200px;
-            border: 1px solid;
-            border-color: black;
-            border-radius: 5%;
-           
-         }
+
         
  
- }
- }
- }
+            }
+         }
+     }
