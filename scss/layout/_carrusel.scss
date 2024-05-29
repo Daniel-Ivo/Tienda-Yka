@@ -1,21 +1,31 @@
    section{
         #carouselExample{
+            
           .carousel-inner{ 
                display: flex;
                align-content: center;
              .carousel-item{
                    img{
-                    margin-left: 25%;
-                    width: 50%;
-                    height: auto;
-                    border-radius: 5%;
+                       margin-left: 25%;
+                       width: 50%;
+                       height: auto;
+                       border-radius: 5%;
                       }
                 
-                  }
+                }
 
 
         
  
             }
+
+            .carousel-control-prev{
+                .carousel-control-prev-icon{
+                color: red;
+                .visually-hidden{background-color: orange;
+                }
+             }
+             }
          }
      }
+     
