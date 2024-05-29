@@ -21,11 +21,16 @@
 
             .carousel-control-prev{
                 .carousel-control-prev-icon{
-                color: red;
-                .visually-hidden{background-color: orange;
+                background-color: orangered;
+             }
+            }
+
+
+            .carousel-control-next{
+                .carousel-control-next-icon{
+                    background-color: orangered;
                 }
-             }
-             }
+            }
          }
      }
      
