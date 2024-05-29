@@ -32,3 +32,17 @@ header{
         }
      }
     
+     section{
+        h4{
+            border-top: 25px;
+            text-align: center;
+            background-image: linear-gradient(to left, orange, orangered)
+                     
+        }
+        .leyenda{
+            background-color: orange;
+             p{
+                text-align: center;
+             }
+        }
+    }

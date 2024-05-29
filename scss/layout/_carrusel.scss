@@ -1,27 +1,13 @@
-section{
-        h4{
-            border-top: 25px;
-            text-align: center;
-            background-image: linear-gradient(to left, orange, orangered)
-                     
-        }
-        .leyenda{
-            background-color: orange;
-             p{
-                text-align: center;
-             }
-        }
-    }
-
-
-    section{
-        .carouselExample{
+   section{
+        #carouselExample{
           .carousel-inner{ 
-          
-             .carousel-item active {
-                
-                   .carrusel1{
-                    width: 500px;
+               display: flex;
+               align-content: center;
+             .carousel-item{
+                   img{
+                    margin-left: 25%;
+                    width: 50%;
+                    height: auto;
                     border-radius: 5%;
                       }
                 

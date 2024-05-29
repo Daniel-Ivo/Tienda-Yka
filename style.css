@@ -44,25 +44,14 @@ section .leyenda p {
   text-align: center;
 }
 
-section .carousel slide .carousel-inner img {
-  width: px;
-  height: 200px;
-  border: 1px solid;
-  border-color: black;
-  border-radius: 5%;
+section #carouselExample .carousel-inner {
+  display: flex;
+  align-content: center;
 }
-section .carousel slide .carousel-inner .carousel-item active {
-  width: px;
-  height: 200px;
-  border: 1px solid;
-  border-color: black;
-  border-radius: 5%;
-}
-section .carousel slide .carousel-inner .carousel-item {
-  width: px;
-  height: 200px;
-  border: 1px solid;
-  border-color: black;
+section #carouselExample .carousel-inner .carousel-item img {
+  margin-left: 25%;
+  width: 50%;
+  height: auto;
   border-radius: 5%;
 }
 
@@ -195,7 +184,7 @@ section .leyenda2 span em {
   margin-top: 5px;
 }
 .recetas-container .grid-item img {
-  width: 100%;
+  width: 500px;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5%;
