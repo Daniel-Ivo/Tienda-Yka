@@ -248,27 +248,6 @@ p {
   background: radial-gradient(circle, rgb(255, 201, 0) 24%, rgb(255, 98, 0) 100%);
 }
 
-h4 {
-  border-top: 25px;
-  text-align: center;
-  background-image: linear-gradient(to left, orange, orangered);
-}
-
-main .Grid-container {
-  display: grid;
-  margin-left: 10%;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-  padding: 1rem;
-}
-main .Grid-container .grid-item {
-  justify-content: center;
-}
-main .Grid-container .grid-item a {
-  color: black;
-  text-decoration: none;
-}
-
 .Grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -298,6 +277,27 @@ main .Grid-container .grid-item a {
 }
 .Grid-container .grid-item h2 {
   color: black;
+}
+
+h4 {
+  border-top: 25px;
+  text-align: center;
+  background-image: linear-gradient(to left, orange, orangered);
+}
+
+main .Grid-container {
+  display: grid;
+  margin-left: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 1rem;
+}
+main .Grid-container .grid-item {
+  justify-content: center;
+}
+main .Grid-container .grid-item a {
+  color: black;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
