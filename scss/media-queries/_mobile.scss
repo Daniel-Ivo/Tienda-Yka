@@ -8,8 +8,26 @@
        align-content: center;
     }
 
-      img{
-        max-width: 100%;
-        
-      }
+    img{
+        max-width: 100%;  
+    }
+
+    section{
+        #carouselExample{
+            
+          .carousel-inner{ 
+               display: flex;
+               align-content: center;
+                .carousel-item{
+                   img{
+                       margin-left: 25%;
+                       width: 50%;
+                       height: auto;
+                       border-radius: 5%;
+                      }
+                
+                }
+             }
+         }
+     }
 }
